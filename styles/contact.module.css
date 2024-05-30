@@ -1,0 +1,64 @@
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.3rem;
+    padding: 50px;
+}
+
+.containerinput {
+    font-size: 1.2rem;
+    margin: 10px 0 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(39, 36, 36);
+    border-bottom: solid;
+    width: 100%;
+}
+
+.containerinput1 {
+    font-size: 1.2rem;
+    margin: 10px 0 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(39, 36, 36);
+    border-bottom: solid;
+    width: auto;
+    margin-right: 10px;
+}
+
+.conth1{
+    text-align: center;
+}
+
+
+.namediv {
+    display: flex;
+}
+
+.block button {
+    padding: 10px;
+    font-size: 20px;
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
